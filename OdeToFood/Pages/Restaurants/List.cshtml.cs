@@ -19,7 +19,7 @@ namespace OdeToFood.Pages.Restaurants
         public string SearchTerm { get; set; }
 
         public string Message { get; set; }
-        public IEnumerable<Restaurant>Restaurants { get; set; }
+        public IEnumerable<Restaurant> Restaurants { get; set; }
 
         public ListModel(IConfiguration config, IRestaurantData restaurantData)
         {
